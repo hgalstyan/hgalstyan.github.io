@@ -1,0 +1,42 @@
+%a {
+	text-decoration: none;
+	color: inherit;
+}
+
+%navitemshover {
+	background-color:$turqoise;
+	color:$white;
+}
+
+
+// Headlines
+
+%hdln-prim {
+  font-weight: $font-weight--light;
+  font-size: em(42px);
+  line-height: (46px/42px);
+  margin-top: 0;
+  padding-left:em(10px);
+}
+%hdln-sec {
+  letter-spacing: $letter-space;
+  font-weight: $font-weight--thin;
+  font-size: em(16px);
+  font-family: $font-family--secondary;
+  opacity: .4;
+}
+%quote {
+
+  letter-spacing: $letter-space;
+  font-weight: $font-weight--light;
+  font-size: em(18px);
+  font-family: $font-family--primary;
+  border-left:em(10px) solid $turqoise;
+  border-radius:5px;
+  margin-left:em(10px);
+  padding-left:em(10px);
+}
+
+%height{
+	height: 50px;
+}

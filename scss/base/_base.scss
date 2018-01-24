@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: $base-background;
+	color: $base-color;
+  font-size: $base__font-size;
+  line-height: ($base__line/$base__font-size);
+  font-family: $font-family--primary;
+}
+
+footer {
+	width: 100%;
+	background-color: rgba(38, 38, 38, 0.5);
+}
+
+.main-content {
+	width: 90%;
+	margin: 70px auto 0 auto;
+	max-width: 1200px;
+}
+
+.footer {
+	padding-bottom: em(40px);
+	align-items: center;
+	&-wrapper {
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+}
+
+a {
+	text-decoration: none;
+	color: $base-color;
+}

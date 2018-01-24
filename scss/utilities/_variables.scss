@@ -1,0 +1,96 @@
+// Font Stacks
+
+$font-url--google        : 'https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900';
+$font-family--primary    :  "lato,"'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family--secondary  : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+// Font Weights
+
+$font-weight--thin       : 100;
+$font-weight--light      : 300;
+$font-weight--medium     : 400;
+$font-weight--bold       : 700;
+$font-weight--ultra-bold : 900;
+
+
+// Descriptive Base Colors
+
+$white     : #fff;
+$black     : #0b0b0b;
+$grey      : #797e83;
+$grey-light: lighten($grey, 15%);
+
+
+$base-background: #323232;
+$base-color			: #bfbfbf;
+$base-blue  		: #26455F;
+$dark-green     : #104d17;
+$purple         : #372d49;
+$dark-red       : #9c2222;
+$orange-sun 		: #e24d1b;
+$dark-blue      : #0e3561;
+$turqoise				: #30704a;
+//UI color
+
+$ui-colors : (
+	html 	: $base-blue,
+	css		: $dark-green,
+	js		: $dark-red,
+	sass	: $purple,
+	scss	:	$purple,
+	jq		: $orange-sun,
+	react	: $dark-blue
+);
+
+// Color Usage
+
+$color-primary   : $base-blue;
+$color-secondary : $dark-green;
+$color-accent    : $orange-sun;
+$color-shadow    : rgba($black, .2);
+
+
+
+// Font Weights
+
+$font-weight--thin       : 100;
+$font-weight--light      : 300;
+$font-weight--medium     : 400;
+$font-weight--bold       : 700;
+$font-weight--ultra-bold : 900;
+
+// Transitions
+
+$trns-duration  : .3s;
+
+
+// Text
+
+$base__font-size : 16px;
+$base__line      : 24px;
+$letter-space 	 : 1px;
+
+
+// Breakpoints
+
+$brkpoint-sm    : 480px;
+$brkpoint-md    : 768px;
+$brkpoint-lg    : 1000px;
+
+// Grid configuration variables
+$g-col-width: 100px;
+$g-gutter-width: 8px;
+$g-col-count: 12;
+$g-cont-max-w: 1150px;
+
+// Screen reader text
+
+.srt {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}

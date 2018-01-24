@@ -1,0 +1,67 @@
+.nav {
+	a {
+		@extend %a;
+		font-size:em(20px);
+	}
+
+	&__item{
+		font-size:em(20px);
+		text-align:center;
+		margin-top:em(16px);
+		&:hover{
+			@extend %navitemshover;
+		}
+	}
+
+	&__link {
+		@include flexbox($content: flex-start,$direction: row);
+		height: em(32px);
+		margin: 10px;
+		align-items: center;
+		&--item {
+			margin: 0 em(10px);
+		}
+	}
+
+
+	@include mq(large){
+		@include flexbox($content: flex-end);
+		&__item {
+			margin: 0 30px;
+			flex-grow: 0;
+		}
+	}
+}
+.footer{
+	display: flex;
+	justify-content: center;
+}
+
+.navigation{
+	&-wrapper {
+		width: 100%;
+		background-color: rgba(38,38,38,0.5);
+		position: fixed;
+		top: 0;
+		right: 0;
+	}
+	&-container {
+		transition: height 600ms 0s ease;
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+}
+
+nav {
+	display: none;
+	@include mq(large) {
+		display: block;
+	}
+}
+
+.project-nav {
+	@include flexbox($content: center,$direction: row);
+	a {
+		margin: 0 20px;
+	}
+}

@@ -1,0 +1,46 @@
+.form {
+	padding-top: em(20px);
+	background-color: $white;
+	&>input{
+		width:90%;
+		height:em(40px);
+		border-top:0;
+		border-left:0;
+		border-right:0;	
+		margin: em(20px) auto 0 auto;
+		
+	}
+	@include flexbox($direction:column){
+
+	}
+	
+		.headline--secondary {
+		@extend %hdln-sec;
+		margin-bottom: em(22px, 24px);	
+	}
+	
+	@include e(label) {
+		@include m(hidden) {
+			@extend .srt;
+		}
+		display: block;
+		margin-bottom: em(10px);
+	}
+
+	@include e(input) {
+		font-size : em(18px);
+		margin-bottom: em(20px, 18px);
+		border-bottom: 6px solid $turqoise;
+		font-weight: $font-weight--light;
+
+		&:focus {	
+			border-color: $turqoise;
+		}
+	}
+
+	@include e(btn) {
+		@extend %height;
+		background: $turqoise;
+	}
+
+}

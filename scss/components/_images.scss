@@ -1,0 +1,21 @@
+.img {
+
+  @include img(avatar) {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    border-bottom: 2px solid #dbdbff;
+
+  }
+  @include img(logo) {
+    margin: 0 auto;
+  }
+
+  @include img(frame) {
+  	padding: 2.5%;
+    margin: auto;
+    width: 370px;
+    height: 280px;
+    border-radius: 9%;
+  }
+}

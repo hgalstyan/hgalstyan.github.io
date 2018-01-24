@@ -1,0 +1,104 @@
+@mixin e($element){
+	&__#{$element}{
+		@content;
+	}
+}
+
+@mixin m($modifier){
+	&--#{$modifier}{
+		@content;
+	}
+}
+
+
+
+@mixin bg-colors($map){
+	@each $theme, $color in $map{
+		&-#{$theme}{
+			background-color: $color;
+			@content;
+		}
+	}
+}
+
+//Generate modifier grid colors
+
+@mixin grid-colors($map) {
+  @each $theme, $color in $map {
+    &--#{$theme}.theme__colors {
+      background-color: $color;
+      width: 90%;
+      padding: em(10px) 0;
+      @content;
+    }
+  }
+}
+
+//IMG mixin
+@mixin img($modifier) {
+	&--#{$modifier}{
+		display: block;
+    	//margin-left: auto;
+    	//margin-right: auto;
+    	margin: em(24px) auto 0 auto;
+    	@content;
+	}
+}
+
+// Media queries
+
+@mixin mq($break) {
+  @if $break == "small" {
+    @media (min-width: $brkpoint-sm) {
+      @content;
+    }
+  }
+  @else if $break == "medium" {
+    @media (min-width: $brkpoint-md) {
+      nav {
+      	width: 100%;
+      }
+      @content;
+    }
+  }
+  @else if $break == "large" {
+    @media (min-width: $brkpoint-lg) {
+      @content;
+    }
+  }
+   @else {
+   	@error "Whoops! No value could be retrieved for `#{$break}`. "
+  }
+}
+
+//Flexbox
+@mixin flexbox($display:flex, $wrap:wrap, $direction: null,
+  $content:null){
+	display: $display;
+	flex-wrap: $wrap;
+	flex-direction: $direction;
+	justify-content: $content;
+	@content;
+}
+
+//====================
+//Grid mixin
+//====================
+
+@mixin g-columns {
+  .grid__row {
+    display: flex;
+    justify-content: space-between;
+		flex-wrap: wrap;
+  }
+}
+@mixin flex_col {
+  @for $i from 1 through $g-col-count {
+    $context: g-context($g-col-width, $g-col-count ,$g-gutter-width) !global;
+    $target: ($g-col-width * $i) + ($g-gutter-width * ($i - 1));
+    // Generate column modifier classes
+    &--#{$i} {
+      flex-basis: percentage($target / $context);
+    }
+  }
+}

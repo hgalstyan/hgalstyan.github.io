@@ -1,0 +1,38 @@
+
+
+
+// ================================
+// Grid system for desktop
+// ================================
+
+@include mq(medium) {
+  .grid__col {
+    &--12 {
+      @include flexbox($direction: row, $content: center);
+    }
+  }
+}
+
+@include mq(large) {
+@include g-columns;
+  .grid__col {
+  	@include flex_col;
+  	&--9 {
+  		align-self: center;
+  	}
+		&--6 {
+			margin:30px auto;
+		}
+  }
+.centered {
+  margin: 0 auto;
+  display: block;
+	}
+}
+
+.grid__col {
+  &--3 {
+    width: em(250px);
+    margin: 0 auto;
+  }
+}
