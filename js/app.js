@@ -16,7 +16,7 @@ const data = {
       description: "There are a lot of different devices, with different display sizes. That's why responsive design is important part of a modern web development. In two words responsive website is a website, wich is good looking on every device. I hope like this one.",
       skills: ["HTML", "CSS"],
       repo: "https://github.com/hgalstyan/responsive_layout",
-      link: ""
+      link: "https://hgalstyan.github.io/responsive_layout/"
     },
     {
       name: "Online Registration",
@@ -24,7 +24,7 @@ const data = {
       description: "When you are subscribing or registering, you need to fill a form with your info. Well, here it is.",
       skills: ["HTML", "CSS"],
       repo: "https://github.com/hgalstyan/online_registration_v3",
-      link: ""
+      link: "https://hgalstyan.github.io/online_registration_v3/"
     },
     {
       name: "Photo Gallery",
@@ -32,7 +32,7 @@ const data = {
       description: "There are a lot of great frameworks. I'm using one of them here to display photos.",
       skills: ["HTML", "CSS","JS","JQ"],
       repo: "https://github.com/hgalstyan/photo_gallery_v4",
-      link: ""
+      link: "https://hgalstyan.github.io/photo_gallery_v4/"
     },
     {
       name: "Style Guide",
@@ -40,7 +40,7 @@ const data = {
       description: "If you search the internet, you'll find a ton of different web-styles. With guide of course.",
       skills: ["HTML", "CSS","SCSS"],
       repo: "https://github.com/hgalstyan/style_guide_v5",
-      link: ""
+      link: "https://hgalstyan.github.io/style_guide_v5/"
     },
     {
       name: "Video Player",
@@ -48,7 +48,7 @@ const data = {
       description: "Also great framework but this time it's a video player. Who doesn't want a good looking video player with closed captions. Just in case it's also interactive",
       skills: ["HTML", "CSS","JS","JQ"],
       repo: "https://github.com/hgalstyan/video_player_v6",
-      link: ""
+      link: "https://hgalstyan.github.io/video_player_v6/"
     },
     {
       name: "Game Show App",
@@ -56,7 +56,7 @@ const data = {
       description: "Let's play some game. You should guess the word, by clicking on the letters, placed on display. You can miss only five times. Good luck.",
       skills: ["HTML", "CSS","JS","JQ"],
       repo: "https://github.com/hgalstyan/game_show_app_v7",
-      link: ""
+      link: "https://hgalstyan.github.io/game_show_app_v7/"
     },
     {
       name: "SVG Animations",
@@ -64,7 +64,7 @@ const data = {
       description: "Is's a webpage about corgi dogs. All SVG are animated here. Just try. The goal of this project was SVG creation and animation.",
       skills: ["HTML", "CSS"],
       repo: "https://github.com/hgalstyan/svg_animations_v8",
-      link: ""
+      link: "https://hgalstyan.github.io/svg_animations_v8/"
     },
     {
       name: "Web App Dashboard",
@@ -72,7 +72,7 @@ const data = {
       description: "With chart.js, SASS, and JS, I created this dashboard. It's also have local memory. So changes in settings will be saved.",
       skills: ["HTML", "CSS","SCSS","JS","JQ"],
       repo: "https://github.com/hgalstyan/web-app-dashboard",
-      link: ""
+      link: "https://hgalstyan.github.io/web-app-dashboard/"
     },
     {
       name: "Public API",
@@ -80,7 +80,7 @@ const data = {
       description: "API(Application Programming Interface) is a tool which web developers are using to communicate with the servers. This project is an example of that. It's getting random 12 people from another server and displaying them.",
       skills: ["HTML", "CSS", "JS", "JQ"],
       repo: "https://github.com/hgalstyan/public-API-2",
-      link: ""
+      link: "https://hgalstyan.github.io/public-API-2"
     },
     {
       name: "Flicr Gallery",
@@ -88,7 +88,7 @@ const data = {
       description: "React is a JavaScript library for building user interfaces. It's fast, easy and manageable. For first time it's a pain in some lower body part. In this project I'm using Flickrs API and displaying photo via search or by pushing the buttons.",
       skills: ["HTML", "CSS","JS","React"],
       repo: "https://github.com/hgalstyan/React-gallery",
-      link: ""
+      link: "https://github.com/hgalstyan/React-gallery/blob/master/README.md"
     }
   ]
 }
