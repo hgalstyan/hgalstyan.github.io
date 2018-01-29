@@ -142,7 +142,7 @@ hamburger.onclick = (e) => {
   (hamburger.classList[2] === "is-active") ? toggleHeight("300px","block") : toggleHeight("64px","none");
 };
 
-toggleHeight = (height, display) => {
+let toggleHeight = (height, display) => {
   nav.style.display = display;
   header.style.height = height;
 }
