@@ -35,7 +35,7 @@
   letter-spacing: 1px;
   font-weight: 300;
   font-size: 1.125em;
-  font-family: "lato," "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   border-left: 0.625em solid #30704a;
   border-radius: 5px;
   margin-left: 0.625em;
@@ -420,7 +420,7 @@ body {
   color: #bfbfbf;
   font-size: 16px;
   line-height: 1.5;
-  font-family: "lato," "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "lato", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 footer {
   width: 100%;
